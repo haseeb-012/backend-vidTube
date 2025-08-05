@@ -1,0 +1,23 @@
+{
+  "name": "vidtube",
+  "version": "1.0.0",
+  "description": "a project inspired by youtube",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Haseeb",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.1.2",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
+  }
+}
