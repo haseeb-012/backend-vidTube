@@ -17,7 +17,6 @@ pids/
 
 # Environment variables
 .env
-.env.*
 /src/.env
 
 # Build output
