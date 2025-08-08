@@ -1,5 +1,5 @@
 import mongoose,{Schema} from 'mongoose';
-
+import mongoosePaginate from 'mongoose-paginate-v2';
 const videoSchema = new Schema({
     videoFile:{
         type: String, //Cloudinary url
@@ -35,6 +35,8 @@ const videoSchema = new Schema({
         required: true
     }
 });
+
+videoSchema.plugin(mongoosePaginate);
 
 const Video = mongoose.model('Video', videoSchema);
 
